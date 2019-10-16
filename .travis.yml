@@ -4,3 +4,10 @@ node_js:
   - "lts/*"
   - "8"
   - "8.8.0"
+env:
+  global:
+    - NODE_ENV=test
+    - SERVER_PROTOCOL=http
+    - SERVER_HOSTNAME=localhost
+    - SERVER_PORT=8888
+    
